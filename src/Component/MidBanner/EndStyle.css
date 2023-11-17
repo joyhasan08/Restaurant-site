@@ -1,0 +1,5 @@
+.bg-cover {
+    background-image: url('./../../assets/home/featured.jpg');
+    border-radius: 10px;
+
+}
