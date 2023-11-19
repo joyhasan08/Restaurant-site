@@ -4,6 +4,7 @@ import Banner from "../../Component/Carousel/Banner";
 import MidBanner from "../../Component/MidBanner/MidBanner";
 import MenuSection from "../../Component/MenuSection/MenuSection";
 import EndBanner from "../../Component/MidBanner/EndBanner.jsx";
+import Reviews from "../../Component/Review/Reviews.jsx";
 
 
 const Home = () => {
@@ -17,9 +18,8 @@ const Home = () => {
                 <MidBanner></MidBanner>
                 <MenuSection></MenuSection>
                 <EndBanner></EndBanner>
+                <Reviews></Reviews>
             </div>
-
-
             <h1>Thi is home </h1>
         </div>
     );

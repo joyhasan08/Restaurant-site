@@ -3,3 +3,7 @@
     border-radius: 10px;
 
 }
+
+.md-bannerCover {
+    background-image: url('./../../assets/home/chef-service.jpg');
+}

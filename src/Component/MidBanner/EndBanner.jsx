@@ -5,14 +5,14 @@ import './../MidBanner/EndStyle.css'
 
 const EndBanner = () => {
     return (
-        <div className='bg-cover   h-[500px]'>
+        <div className='bg-cover bg-fixed  '>
             <div className='max-w-4xl  mx-auto text-center space-y-4'>
                 <SectionTitle
                     subHeading={"Check it out"}
                     heading={"FROM OUR MENU"}
 
                 ></SectionTitle>
-                <div className='flex gap-2 '>
+                <div className='flex gap-2 pb-20 '>
                     <div className=''>
                         <img className='w-full rounded-lg object-cover' src={sideImg} alt="" />
                     </div>
