@@ -4,7 +4,8 @@ import {
 } from "react-router-dom";
 import App from "../App";
 import Home from "../page/Home/Home";
-import MenuPage from "../page/Home/Menu/MenuPage";
+import MenuPage from "../page/Menu/MenuPage";
+
 
 
 const router = createBrowserRouter([

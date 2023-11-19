@@ -1,4 +1,4 @@
-import { data } from "autoprefixer";
+
 import { useEffect, useState } from "react";
 
 
@@ -10,9 +10,11 @@ const useMenuData = () => {
         fetch('menu.json').then(res => res.json())
             .then(data => {
                 console.log(data);
+                setMenu(data);
+                setLoading(false);
             })
     }, [])
-
+    return [menu, loading]
 };
 
 export default useMenuData;
