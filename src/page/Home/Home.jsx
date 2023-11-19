@@ -6,6 +6,7 @@ import MenuSection from "../../Component/MenuSection/MenuSection";
 import EndBanner from "../../Component/MidBanner/EndBanner.jsx";
 import Reviews from "../../Component/Review/Reviews.jsx";
 
+import { Button } from "keep-react";
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
                 <Reviews></Reviews>
             </div>
             <h1>Thi is home </h1>
+            <Button size="md">Default</Button>
         </div>
     );
 };

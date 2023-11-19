@@ -1,8 +1,14 @@
+import { Helmet } from 'react-helmet-async';
+import HeroMenu from '../../../Component/Hero/HeroMenu';
 
 const MenuPage = () => {
     return (
         <div>
-            <h1>This is menu page</h1>
+            <Helmet>
+                <title>Pizz hut | Menu</title>
+            </Helmet>
+            <HeroMenu></HeroMenu>
+
         </div>
     );
 };
