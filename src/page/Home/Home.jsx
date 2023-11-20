@@ -7,10 +7,14 @@ import EndBanner from "../../Component/MidBanner/EndBanner.jsx";
 import Reviews from "../../Component/Review/Reviews.jsx";
 
 import { Button } from "keep-react";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
     return (
         <div>
+            <Helmet>
+                <title> Pizza hut | Home </title>
+            </Helmet>
             <div className="">
                 <Banner></Banner>
             </div>

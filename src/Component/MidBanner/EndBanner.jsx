@@ -1,5 +1,4 @@
 import SectionTitle from '../../utils/SectionTitle';
-import BannerBg from './../../assets/home/featured.jpg'
 import sideImg from './../../assets/home/banner.jpg'
 import './../MidBanner/EndStyle.css'
 import { Button } from 'flowbite-react';
