@@ -8,6 +8,8 @@ import MenuPage from "../page/Menu/MenuPage";
 import LoginOutlet from "../layout/Login/LoginOutlet";
 import SingIn from "../page/LoginPage/SingIn";
 import SingUp from "../page/LoginPage/SingUp";
+import AdminPanel from "../layout/Admin/AdminPanel";
+import DashBoard from "../page/Admin/DashBoard";
 
 
 
@@ -39,6 +41,16 @@ const router = createBrowserRouter([
             {
                 path: 'reg',
                 element: <SingUp />
+            }
+        ]
+    },
+    {
+        path: 'admin',
+        element: <AdminPanel />,
+        children: [
+            {
+                path: 'dash',
+                element: <DashBoard />
             }
         ]
     }

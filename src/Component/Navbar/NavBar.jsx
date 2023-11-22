@@ -1,6 +1,7 @@
 import { Avatar, Dropdown, Navbar } from 'flowbite-react';
 import logo from "./../../assets/logo.png"
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import { Button } from 'flowbite-react';
 
 const NavBar = () => {
     return (
@@ -28,6 +29,7 @@ const NavBar = () => {
                             <Dropdown.Item>Earnings</Dropdown.Item>
                             <Dropdown.Divider />
                             <Dropdown.Item>Sign out</Dropdown.Item>
+                            <Button className=' ml-1  ' pill> <NavLink to={"admin/dash"}>Admin </NavLink></Button>
                         </Dropdown>
                         <Navbar.Toggle />
                     </div>
