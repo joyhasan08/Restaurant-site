@@ -1,8 +1,8 @@
 
 import { Outlet } from 'react-router-dom';
 import './App.css'
-import NavBar from './Component/Navbar/Navbar';
 import FooterSection from './Component/Footer/FooterSection';
+import NavBarPraimary from './Component/Navbar/NavBarPraimary';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div >
-        <NavBar></NavBar>
+        <NavBarPraimary />
         <Outlet></Outlet>
       </div>
       <div>

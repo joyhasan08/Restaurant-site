@@ -10,6 +10,9 @@ import SingIn from "../page/LoginPage/SingIn";
 import SingUp from "../page/LoginPage/SingUp";
 import AdminPanel from "../layout/Admin/AdminPanel";
 import DashBoard from "../page/Admin/DashBoard";
+import CartPanel from "../page/Admin/CartPanel";
+import AddFood from "../Component/AddFood/AddFood";
+import AddUser from "../Component/AddUser/AddUser";
 
 
 
@@ -51,6 +54,18 @@ const router = createBrowserRouter([
             {
                 path: 'dash',
                 element: <DashBoard />
+            },
+            {
+                path: 'cart',
+                element: <CartPanel />
+            },
+            {
+                path: 'add_food',
+                element: <AddFood />
+            },
+            {
+                path: 'add_user',
+                element: <AddUser />
             }
         ]
     }
