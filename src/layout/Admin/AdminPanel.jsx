@@ -7,9 +7,9 @@ const AdminPanel = () => {
 
     return (
         <div className="flex min-h-screen min-w-full">
-            <div className="bg-slate-200 w-1/4 flex flex-col gap-4 px-10">
+            <div className="bg-slate-200 w-1/4 flex flex-col gap-4 px-10 shadow-[0.125rem_0.125rem_#121212]">
                 <div>
-                    <h1 className="text-3xl font-mono text-gray-600 font-semibold">PIzza Hut</h1>
+                    <h1 className="text-3xl font-mono text-gray-600 font-semibold pt-4">PIzza Hut</h1>
                     <p className="text-gray-700 font-mono text-lg pb-4">Admin Panel</p>
                     <div className="border-b-2  border-black"></div>
                 </div>
