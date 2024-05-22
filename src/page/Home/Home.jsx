@@ -6,7 +6,7 @@ import MenuSection from "../../Component/MenuSection/MenuSection";
 import EndBanner from "../../Component/MidBanner/EndBanner.jsx";
 import Reviews from "../../Component/Review/Reviews.jsx";
 
-import { Button } from "keep-react";
+
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
@@ -25,8 +25,6 @@ const Home = () => {
                 <EndBanner></EndBanner>
                 <Reviews></Reviews>
             </div>
-            <h1>Thi is home </h1>
-            <Button size="md">Default</Button>
         </div>
     );
 };
