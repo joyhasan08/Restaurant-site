@@ -21,15 +21,15 @@ const NavBarPraimary = () => {
                             }
                         >
                             <Dropdown.Header>
-                                <span className="block text-sm">Bonnie Green</span>
-                                <span className="block truncate text-sm font-medium">name@flowbite.com</span>
+                                <span className="block text-sm">Mashum Billah</span>
+                                <span className="block truncate text-sm font-medium">Masum231@Gmail.com</span>
                             </Dropdown.Header>
-                            <Dropdown.Item>Dashboard</Dropdown.Item>
-                            <Dropdown.Item>Settings</Dropdown.Item>
-                            <Dropdown.Item>Earnings</Dropdown.Item>
+                            <NavLink to={'/admin/dash'}>  <Dropdown.Item>Dashboard</Dropdown.Item></NavLink>
+                            {/* <Dropdown.Item>Settings</Dropdown.Item> */}
+                            {/* <Dropdown.Item>Earnings</Dropdown.Item> */}
                             <Dropdown.Divider />
-                            <Dropdown.Item>Sign out</Dropdown.Item>
-                            <Button className=' ml-1  ' pill> <NavLink to={"admin/dash"}>Admin </NavLink></Button>
+                            {/* <Dropdown.Item>Sign out</Dropdown.Item> */}
+                            <Button className=' w-full rounded-none  ' > <NavLink to={"admin/dash"}>Admin Panel </NavLink></Button>
                         </Dropdown>
                         <Navbar.Toggle />
                     </div>
